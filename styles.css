@@ -1,0 +1,93 @@
+.color{
+background-color: rgb(244, 244, 244);
+}
+
+ul>li {
+display:inline-table;
+}
+
+header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #ffffff;
+ }
+
+ul li a:link{
+color:blue;
+font-family:'Times New Roman', Times, serif;
+text-decoration:none;
+}
+
+a:link{
+    color:default;
+}
+
+ul li a:hover{
+color:rgb(0, 0, 0);
+font-family:'Times New Roman', Times, serif;
+text-decoration:underline;
+width: 10px;
+height: 100px;
+background-color: rgb(255, 255, 255);
+transition: transform 0.3s ease;
+margin: 10px;
+}
+
+.h1{
+font-size: 300%;
+}
+
+.button {
+padding: 10px 20px;
+font-size: 16px;
+background-color: blue;
+color: white;
+border:none;
+cursor: pointer;
+transition: background-color 0.3s ease-in-out; 
+}
+.button:hover{
+background-color: lightblue;
+transition: overflow ease-in;
+}
+
+.image {
+ display:flex;
+ justify-content: space-between;
+ align-items:flex-end;
+ }
+.h2{
+text-decoration: underline;
+}
+
+.image-container {
+    display: inline-block; 
+    
+    justify-content:space-evenly;
+}
+
+.container{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.card{
+    text-align:center;
+}
+
+.card img{
+    width:auto;
+    height:auto;margin-bottom:20px;
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+.card p {
+    font-size: 16px;
+    line-height: 1.5;
+    }
